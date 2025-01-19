@@ -1,5 +1,5 @@
 flask
-fer
+fer==21.0.0
 opencv-python-headless
 werkzeug
 moviepy
