@@ -1,6 +1,8 @@
-flask
+flask==2.2.3
 fer==21.0.0
-opencv-python-headless
-werkzeug
-moviepy
+opencv-python-headless==4.7.0.72
+werkzeug==2.2.3
+moviepy==1.0.3
+tensorflow-cpu==2.11.0
+
 
