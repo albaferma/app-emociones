@@ -1,4 +1,3 @@
-
 from flask import Flask, request, render_template_string
 import cv2
 from fer import FER
@@ -85,4 +84,6 @@ def predict():
     '''
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    # Cambiamos el puerto para que Render lo detecte
+    port = int(os.environ.get("PORT", 5000))  # Render asigna el puerto como variable de entorno
+    app.run(host='0.0.0.0', port=port)
