@@ -2,3 +2,5 @@ flask
 fer
 opencv-python-headless
 werkzeug
+moviepy
+
